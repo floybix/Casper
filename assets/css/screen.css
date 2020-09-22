@@ -109,6 +109,10 @@ body {
 /* 4. Site Header
 /* ---------------------------------------------------------- */
 
+.site-header-content {
+    color: black;
+}
+
 .site-header-background {
     position: relative;
     margin-top: 64px;
@@ -127,7 +131,6 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0,0,0,0.18);
 }
 
 .site-header-background:after {
@@ -139,8 +142,8 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    height: 140px;
-    background: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0));
+    height: 64px;
+    background: black;
 }
 
 .site-header-background.no-image:before,
